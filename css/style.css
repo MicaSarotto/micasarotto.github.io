@@ -1,0 +1,97 @@
+* {
+    background-color: black;
+}
+
+.logo {
+    width: 15%;
+    height: 15%;
+    display: block;
+    margin: auto;
+    padding-bottom: 20px;
+    background-color: white;
+}
+
+header {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 30px;
+}
+
+header nav {
+    text-align: center;
+    word-spacing: 5px;
+    padding: 10px;
+
+}
+
+header nav a {
+    margin: 40px;
+    text-decoration: none;
+    color: #F81B8C;
+    font-size: 40px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+}
+
+
+
+h2 {
+    color: #FFE500;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#inicio h2 {
+    background-color: #ffffff;
+    font-size: 60px;
+    word-spacing: 5px;
+    padding: 10px;
+    margin: 30px;
+
+ }
+ 
+h3 {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    line-height: 1;
+    color: #38B6FF;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #F81B8C;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.trabajos {
+    width: 30%;
+    height: 30%;
+    display: block;
+    margin: auto;
+}
+
+#contacto {
+    padding: 5px;
+    text-align: center;
+    
+}
+
+.redes {
+    width: 5%;
+    height: 5%;
+    margin: 30px;
+
+}

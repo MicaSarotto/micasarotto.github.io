@@ -1,10 +1,11 @@
+/* Estilos generales */
 * {
     background-color: black;
 }
 
 .logo {
     width: 15%;
-    height: 15%;
+    height: auto;
     display: block;
     margin: auto;
     padding-bottom: 20px;
@@ -22,19 +23,16 @@ header nav {
     text-align: center;
     word-spacing: 5px;
     padding: 10px;
-
 }
 
 header nav a {
-    margin: 40px;
+    margin: 20px;
     text-decoration: none;
     color: #F81B8C;
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     background-color: rgb(0, 0, 0);
 }
-
-
 
 h2 {
     color: #FFE500;
@@ -49,21 +47,19 @@ h2 {
     word-spacing: 5px;
     padding: 10px;
     margin: 30px;
+}
 
- }
- 
 h3 {
     color: white;
     font-size: 20px;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
 }
 
 p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 30px;
-    line-height: 1;
+    line-height: 1.2;
     color: #38B6FF;
     text-align: center;
 }
@@ -75,10 +71,9 @@ a {
     text-align: center;
 }
 
-
 .trabajos {
     width: 30%;
-    height: 30%;
+    height: auto;
     display: block;
     margin: auto;
 }
@@ -86,12 +81,119 @@ a {
 #contacto {
     padding: 5px;
     text-align: center;
-    
 }
 
 .redes {
     width: 5%;
-    height: 5%;
+    height: auto;
     margin: 30px;
+}
 
+/* Media Queries para pantallas más pequeñas */
+@media (max-width: 1366px) {
+    header {
+        padding: 15px;
+    }
+    
+    header nav a {
+        font-size: 35px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    .trabajos {
+        width: 40%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .logo {
+        width: 20%;
+    }
+
+    header {
+        margin: 20px;
+    }
+
+    header nav a {
+        font-size: 30px;
+        margin: 15px;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    p {
+        font-size: 25px;
+    }
+
+    .trabajos {
+        width: 50%;
+    }
+
+    .redes {
+        width: 8%;
+    }
+}
+
+@media (max-width: 768px) {
+    .logo {
+        width: 25%;
+    }
+
+    header nav a {
+        font-size: 28px;
+        margin: 10px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .trabajos {
+        width: 60%;
+    }
+
+    .redes {
+        width: 10%;
+    }
+}
+
+@media (max-width: 568px) {
+    .logo {
+        width: 40%;
+    }
+
+    header {
+        margin: 10px;
+    }
+
+    header nav a {
+        font-size: 25px;
+        margin: 5px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .trabajos {
+        width: 80%;
+    }
+
+    .redes {
+        width: 12%;
+        margin: 10px;
+    }
 }
